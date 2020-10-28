@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <a href="/home">home</a>
       </header>
     </div>
   );

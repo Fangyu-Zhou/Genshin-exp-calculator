@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route } from 'react-router-dom'
+
+import HomePage from "./component/home/HomePage";
 
 ReactDOM.render(
   <React.StrictMode>
       <BrowserRouter>
           <div className={"App"}>
-              <Route path='/' exact component={App} />
+              <Route path='/' exact component={HomePage} />
           </div>
       </BrowserRouter>
   </React.StrictMode>,
