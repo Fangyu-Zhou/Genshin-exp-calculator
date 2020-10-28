@@ -1,2 +1,2 @@
-# Genshin_exp_calculator
+# Genshin-exp-calculator
 calculate the exp toward next adventure level
